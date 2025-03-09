@@ -25,3 +25,11 @@ A Python-based chess engine that uses the Minimax algorithm with Alpha-Beta prun
 - Check and checkmate scenarios.
 - Generates legal moves for all piece types.
 - Ensures the king is not left in check after a move.
+
+# How to Use 
+```bash
+git clone https://github.com/your-username/ChessEngine.git
+cd chess_engine
+
+python chess_engine.py
+```
