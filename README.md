@@ -1,27 +1,10 @@
-🎯 Evaluation Function
-The engine evaluates the position based on:
+♔ Chess Engine
+A Python-based chess engine that uses the Minimax algorithm with Alpha-Beta pruning to calculate the best moves. The engine evaluates board positions based on piece values, positional advantages, and checkmate scenarios. This project includes move generation, check/checkmate detection, and an evaluation function.
 
-Material advantage.
-Control of the center.
-Mobility (number of legal moves).
-Checkmate and stalemate detection.
-🏆 Minimax Algorithm with Alpha-Beta Pruning
-The engine searches up to a depth of 3.
-Alpha-Beta pruning reduces the number of nodes evaluated.
-The engine calculates the best move based on the highest evaluation score for White and lowest for Black.
-✅ To-Do
- Add castling support.
- Implement en passant.
- Improve evaluation for pawn structure and king safety.
- Add GUI for gameplay.
-🤝 Contributing
-Fork the repository.
-Create a new branch.
-Commit your changes.
-Create a pull request.
-📜 License
-This project is licensed under the MIT License.
-
-⭐️ Acknowledgments
-Inspired by classical chess engines like Stockfish.
-Based on standard chess rules and evaluation techniques.
+🚀 Features
+✅ Minimax algorithm with Alpha-Beta pruning for efficient search.
+✅ Move generation for all piece types.
+✅ Check and checkmate detection.
+✅ Positional evaluation considering material and control of center squares.
+✅ Pathfinding to ensure legal moves.
+✅ Basic AI that can play as White or Black.
