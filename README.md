@@ -33,3 +33,31 @@ cd chess_engine
 
 python chess_engine.py
 ```
+
+# Example Usage
+
+```python
+pos = Position()
+
+# White pieces
+pos.add_piece(1, 'K', 'white', 'e1')
+pos.add_piece(2, 'Q', 'white', 'f6')
+
+# Black pieces
+pos.add_piece(3, 'K', 'black', 'h8')
+pos.add_piece(4, 'p', 'black', 'g7')
+pos.add_piece(5, 'p', 'black', 'h7')
+
+ai = ChessAI()
+
+# Find the best move for White
+best_move = ai.find_best_move(pos, 'white')
+if best_move:
+    piece_type = pos.pieces[best_move.piece_id][0]
+    print(f"Best move: {piece_type} {best_move.from_square} to {best_move.to_square}")
+```
+
+Output: 
+```python
+Best move: Q f6 to h6
+```
